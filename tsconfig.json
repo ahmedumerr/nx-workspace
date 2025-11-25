@@ -8,6 +8,21 @@
     },
     {
       "path": "./apps/nx-workspace"
+    },
+    {
+      "path": "./apps/3d"
+    },
+    {
+      "path": "./apps/app"
+    },
+    {
+      "path": "./apps/app2"
+    },
+    {
+      "path": "./libs/ui"
+    },
+    {
+      "path": "./libs/shared-components"
     }
   ]
 }
