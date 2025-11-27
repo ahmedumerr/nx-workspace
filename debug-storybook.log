@@ -1,0 +1,19 @@
+[13:23:48.820] [INFO] [36mInitializing Storybook[39m
+[13:23:48.944] [DEBUG] Getting package.json info for /Users/ahmed.umer/Desktop/nx-workspace/package.json...
+[13:23:48.944] [DEBUG] Getting CLI versions from NPM for storybook...
+[13:23:48.944] [DEBUG] Executing command: yarn npm info storybook --fields version --json
+[13:23:50.620] [INFO] Adding Storybook version 10.1.0 to your project
+[13:23:50.622] [ERROR] [38;2;241;97;97mSB_CLI_INIT_0001 (NxProjectDetectedError): We have detected Nx in your project. Nx has its own Storybook initializer, so please use it instead.
+Run "nx g @nx/storybook:configuration <your-project-name>" to add Storybook to a given Nx app or lib.
+
+More info: https://nx.dev/nx-api/storybook#generating-storybook-configuration
+[39m
+    at ProjectTypeService.autoDetectProjectType (file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/create-storybook/dist/_node-chunks/chunk-UYMSB3E6.js:720:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ProjectDetectionCommand.execute (file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/create-storybook/dist/_node-chunks/chunk-UYMSB3E6.js:815:22)
+    at async doInitiate (file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/create-storybook/dist/_node-chunks/chunk-UYMSB3E6.js:2259:143)
+    at async file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/create-storybook/dist/_node-chunks/chunk-UYMSB3E6.js:2312:20
+    at async withTelemetry (file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/storybook/dist/_node-chunks/chunk-SF2DKOPT.js:205:12)
+    at async initiate (file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/create-storybook/dist/_node-chunks/chunk-UYMSB3E6.js:2305:24)
+    at async _Command.<anonymous> (file:///Users/ahmed.umer/.npm/_npx/c1680d8e104d0801/node_modules/create-storybook/dist/_node-chunks/run-W75BJPI6.js:2679:144)
+[13:23:50.627] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
