@@ -4,15 +4,6 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/nx-workspace-e2e"
-    },
-    {
-      "path": "./apps/nx-workspace"
-    },
-    {
-      "path": "./apps/3d"
-    },
-    {
       "path": "./apps/app"
     },
     {
