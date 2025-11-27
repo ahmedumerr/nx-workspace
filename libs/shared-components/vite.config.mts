@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 
 export default defineConfig(() => ({
   root: __dirname,
   cacheDir: '../../node_modules/.vite/libs/shared-components',
-  plugins: [react()],
+  plugins: [react(), vanillaExtractPlugin()],
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [],
